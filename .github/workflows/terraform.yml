@@ -42,5 +42,5 @@ jobs:
         working-directory: "Pre-prod-enviornment"
 
       - name: Terraform Plan
-        run: terraform plan -input=false -var-file="Terraform.tfvars"
+        run: terraform plan
         working-directory: "Pre-prod-enviornment"
