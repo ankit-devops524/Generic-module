@@ -1,0 +1,2 @@
+# Generic-module
+Resources creation
