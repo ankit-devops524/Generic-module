@@ -4,11 +4,7 @@ on:
   push:
     branches:
       - features/rg
-
-  pull_request:
-    branches:
-      - main
-
+      
 jobs:
   terraform-ci:
     name: Terraform CI
