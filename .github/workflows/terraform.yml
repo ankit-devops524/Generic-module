@@ -4,7 +4,12 @@ on:
   push:
     branches:
       - features/rg
-      
+
+permissions:
+  id-token: write
+  contents: read
+
+
 jobs:
   terraform-ci:
     name: Terraform CI
